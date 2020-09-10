@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
-import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -28,9 +27,7 @@ import { CriarContaComponent } from './criar-conta/criar-conta.component';
     BrowserAnimationsModule,
     MatSliderModule,
     MatFormFieldModule,
-    MatCardModule,
-    MatButtonModule,
-
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
